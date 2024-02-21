@@ -19,6 +19,4 @@ jprint(data)
 
 # Implementation
 
-Git repository:
-
-[](https://github.com/sanjidnet/sanjidnet.github.io)
+[Git repository](https://github.com/sanjidnet/healthy_sanjid)
