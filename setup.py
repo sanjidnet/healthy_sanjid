@@ -6,7 +6,7 @@ with open("README.md", "r") as f:
 
 setup(
     name='healthy_sanjid',
-    version='0.1.2',
+    version='0.2.2',
     packages=find_packages(),
     install_requires=[
         'requests'

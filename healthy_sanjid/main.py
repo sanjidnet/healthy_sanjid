@@ -11,10 +11,18 @@ def jprint(obj):
 
 def getPersonalInfo():
     response = requests.get(
-        "https://oura-a8ioop.5sc6y6-4.usa-e2.cloudhub.io/private")
+        "https://oura-a8ioop.5sc6y6-4.usa-e2.cloudhub.io/system_personal_data")
+    return (response.json())
+
+
+def getSleepSummary():
+    response = requests.get(
+        "https://oura-a8ioop.5sc6y6-4.usa-e2.cloudhub.io/process_sleep")
     return (response.json())
 
 
 if __name__ == "__main__":
     value = getPersonalInfo()
+    jprint(value)
+    value = getSleepSummary()
     jprint(value)
